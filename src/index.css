@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+
+@keyframes bounceEvery3s {
+  0%   { transform: translateY(0); }
+  20%  { transform: translateY(-8px); }
+  40%  { transform: translateY(0); }
+  60%  { transform: translateY(-5px); }
+  80%  { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+
+.bounce-logo {
+  animation: bounceEvery3s 3s ease-in-out infinite;
+}
+
+/* Slow Rotation */
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 40s linear infinite;
+}
+
+/* Zigzag border effect */
+.zigzag-border {
+  border-style:dotted;
+  border-width: 4px;
+}
+
+
+
