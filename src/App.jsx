@@ -1,4 +1,4 @@
-import { BrowserRouter} from "react-router-dom"
+import { HashRouter} from "react-router-dom"
 import NavBar from "./header/navBar"
 import SubHeader from "./header/subHeader"
 import CustomRoutes from "./Routes"
@@ -8,13 +8,13 @@ function App() {
 
   return (
    <>
-   <BrowserRouter>
+   <HashRouter>
      <NavBar/>
     <SubHeader/>
     <CustomRoutes/>
     <Footer/>
 
-   </BrowserRouter>
+   </HashRouter>
 
    </>
   )
