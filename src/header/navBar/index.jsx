@@ -53,17 +53,17 @@ export default function NavBar() {
             </ul>
 
             {/* CTA Button */}
-            <button className="px-5 py-2.5 bg-gradient-to-r from-red-600 to-purple-600 text-white rounded-full text-sm font-medium hover:shadow-lg hover:scale-105 transition-all duration-200 shadow-md">
+            {/* <button className="px-5 py-2.5 bg-gradient-to-r from-red-600 to-purple-600 text-white rounded-full text-sm font-medium hover:shadow-lg hover:scale-105 transition-all duration-200 shadow-md">
               Get Quote
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile menu button and CTA */}
           <div className="flex items-center gap-4 lg:hidden">
             {/* Mobile CTA Button - Smaller */}
-            <button className="px-4 py-2 bg-gradient-to-r from-red-600 to-purple-600 text-white rounded-full text-xs font-medium hover:shadow-lg transition-all duration-200 shadow-md">
+            {/* <button className="px-4 py-2 bg-gradient-to-r from-red-600 to-purple-600 text-white rounded-full text-xs font-medium hover:shadow-lg transition-all duration-200 shadow-md">
               Get Quote
-            </button>
+            </button> */}
             
             {/* Hamburger Menu Button */}
             <button 

@@ -57,7 +57,7 @@ const SimpleImageSlider = () => {
           <img
             src={currentImg}
             alt="Main slide"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
         </div>
