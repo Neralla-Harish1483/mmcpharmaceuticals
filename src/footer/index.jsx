@@ -1,6 +1,8 @@
  
-    import { FooterData } from "../data/footerData.jsx";
+    import { useNavigate } from "react-router-dom";
+import { FooterData } from "../data/footerData.jsx";
     export default function Footer() {
+        const navigate = useNavigate()
 
     return (
         <footer className="bg-gray-900 text-gray-300 pt-16 mt-40">
@@ -27,9 +29,9 @@
                 {
                     FooterData.links.map((l, index) => (
                     <li key={index}>
-                        <a href={l.path} className="hover:text-red-500 transition">
-                        {l.name}
-                        </a>
+                        <button onClick={()=>navigate(l.path)}>
+                            {l.name}
+                        </button>
                     </li>
                     ))
 
