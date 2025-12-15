@@ -1,4 +1,4 @@
-import { HashRouter} from "react-router-dom"
+import { HashRouter} from "react-router-dom" // if we use hash router then , after the base url it will load.
 import NavBar from "./header/navBar"
 import SubHeader from "./header/subHeader"
 import CustomRoutes from "./Routes"
